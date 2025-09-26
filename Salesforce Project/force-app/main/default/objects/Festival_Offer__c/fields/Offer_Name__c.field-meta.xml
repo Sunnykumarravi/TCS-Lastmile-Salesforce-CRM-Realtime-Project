@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offer_Name__c</fullName>
+    <description>Name of the promotion</description>
+    <inlineHelpText>Name of the promotion</inlineHelpText>
+    <label>Offer Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Diwali</fullName>
+                <default>false</default>
+                <label>Diwali</label>
+            </value>
+            <value>
+                <fullName>Holi</fullName>
+                <default>false</default>
+                <label>Holi</label>
+            </value>
+            <value>
+                <fullName>Pongal</fullName>
+                <default>false</default>
+                <label>Pongal</label>
+            </value>
+            <value>
+                <fullName>Dussehra</fullName>
+                <default>false</default>
+                <label>Dussehra</label>
+            </value>
+            <value>
+                <fullName>Ram Navami</fullName>
+                <default>false</default>
+                <label>Ram Navami</label>
+            </value>
+            <value>
+                <fullName>Krishna Janmashtami</fullName>
+                <default>false</default>
+                <label>Krishna Janmashtami</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

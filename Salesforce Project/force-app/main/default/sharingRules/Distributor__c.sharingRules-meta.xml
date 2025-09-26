@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Orders_Share_Distributors</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>To update the delivery status</description>
+        <label>Orders Share Distributors</label>
+        <sharedTo>
+            <role>Adnib</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Distributor</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

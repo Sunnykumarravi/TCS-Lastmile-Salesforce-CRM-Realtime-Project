@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Name__c</fullName>
+    <description>Name of the product</description>
+    <label>Product Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Milk</fullName>
+                <default>false</default>
+                <label>Milk</label>
+            </value>
+            <value>
+                <fullName>Butter</fullName>
+                <default>false</default>
+                <label>Butter</label>
+            </value>
+            <value>
+                <fullName>Cheese</fullName>
+                <default>false</default>
+                <label>Cheese</label>
+            </value>
+            <value>
+                <fullName>Paneer</fullName>
+                <default>false</default>
+                <label>Paneer</label>
+            </value>
+            <value>
+                <fullName>Curd</fullName>
+                <default>false</default>
+                <label>Curd</label>
+            </value>
+            <value>
+                <fullName>Lussi</fullName>
+                <default>false</default>
+                <label>Lussi</label>
+            </value>
+            <value>
+                <fullName>Ghee</fullName>
+                <default>false</default>
+                <label>Ghee</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

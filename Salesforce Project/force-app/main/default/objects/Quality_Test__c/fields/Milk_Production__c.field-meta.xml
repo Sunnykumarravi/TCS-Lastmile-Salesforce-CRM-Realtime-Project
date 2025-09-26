@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Milk_Production__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Milk Production</label>
+    <referenceTo>Milk_Production__c</referenceTo>
+    <relationshipLabel>Quality Tests</relationshipLabel>
+    <relationshipName>Quality_Tests</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

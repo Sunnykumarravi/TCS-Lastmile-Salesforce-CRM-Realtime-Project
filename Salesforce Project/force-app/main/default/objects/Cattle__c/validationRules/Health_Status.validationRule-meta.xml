@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Health_Status</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Active__c  = TRUE, ISBLANK(Text(Health_Status__c)))</errorConditionFormula>
+    <errorDisplayField>Health_Status__c</errorDisplayField>
+    <errorMessage>Health Status is required for active cattle.</errorMessage>
+</ValidationRule>

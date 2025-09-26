@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fat_Content</fullName>
+    <active>true</active>
+    <description>percentage of fat in the milk.</description>
+    <errorConditionFormula>OR( Fat_Content__c &lt; 0,  Fat_Content__c &gt; 20)</errorConditionFormula>
+    <errorDisplayField>Fat_Content__c</errorDisplayField>
+    <errorMessage>Enter a valid Fat % between 0 and 20</errorMessage>
+</ValidationRule>

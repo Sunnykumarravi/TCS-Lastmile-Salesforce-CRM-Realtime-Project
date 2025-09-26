@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Farmer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Links the cattle to its owner</description>
+    <label>Farmer</label>
+    <referenceTo>Farmer__c</referenceTo>
+    <relationshipLabel>Cattles</relationshipLabel>
+    <relationshipName>Cattles</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

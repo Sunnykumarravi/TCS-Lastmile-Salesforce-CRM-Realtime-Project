@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Type__c</fullName>
+    <description>Differentiates the type of stakeholder. This field drives record types, page layouts, and process automation.</description>
+    <inlineHelpText>Differentiates the type of stakeholder. This field drives record types, page layouts, and process automation.</inlineHelpText>
+    <label>Account Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Farmer</fullName>
+                <default>false</default>
+                <label>Farmer</label>
+            </value>
+            <value>
+                <fullName>Distributor</fullName>
+                <default>false</default>
+                <label>Distributor</label>
+            </value>
+            <value>
+                <fullName>Customer</fullName>
+                <default>false</default>
+                <label>Customer</label>
+            </value>
+            <value>
+                <fullName>Inventory Manager</fullName>
+                <default>false</default>
+                <label>Inventory Manager</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

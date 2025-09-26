@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fat_Content</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(ISBLANK( Fat_Content__c ), ISBLANK( Text(Contaminants__c )))</errorConditionFormula>
+    <errorDisplayField>Fat_Content__c</errorDisplayField>
+    <errorMessage>Both Fat % and Contaminants must be recorded.</errorMessage>
+</ValidationRule>

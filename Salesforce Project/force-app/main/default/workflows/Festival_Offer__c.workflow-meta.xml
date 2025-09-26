@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Mark_Offer_Notified</fullName>
+        <field>Notified__c</field>
+        <literalValue>1</literalValue>
+        <name>Mark Offer Notified</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Festival Offer Notification</fullName>
+        <active>true</active>
+        <description>Notify customers about active festival offers.</description>
+        <formula>Is_Active__c  = TRUE &amp;&amp; TODAY() &lt;= End_Date__c</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

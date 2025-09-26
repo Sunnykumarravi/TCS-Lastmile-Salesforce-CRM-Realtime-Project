@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validity__c</fullName>
+    <description>Start and end date of the offer. Helps manage marketing campaigns.</description>
+    <inlineHelpText>Start and end date of the offer. Helps manage marketing campaigns.</inlineHelpText>
+    <label>Validity</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>
